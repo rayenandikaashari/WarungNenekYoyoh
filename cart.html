@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Keranjang - Warung Sembako Nenek Yoyoh</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="page active">
+            <h1>0 Items In Cart</h1> <br>
+            <div id="cart-items-container">
+                <div id="cart-items">
+                    <!-- Cart items akan dimuat lewat JavaScript -->
+                </div>
+            </div>
+
+            <div class="cart-footer">
+                <div class="cart-total">
+                    <span>Total:</span>
+                    <span class="total-price">Rp. 0</span>
+                </div>
+                <a href="payment.html" class="checkout-button">Checkout</a>
+                <a href="katalog.html" class="back-to-menu">Back to Menu</a>
+
+                <div class="nav-bar">
+                    <div class="nav-item">
+                        <a href="katalog.html">
+                            <div class="nav-icon">🏠</div>
+                            <div>Home</div>
+                        </a>
+                    </div>
+                    <div class="nav-item">
+                        <a href="search.html">
+                            <div class="nav-icon">🔍</div>
+                            <div>Search</div>
+                        </a>
+                    </div>
+                    <div class="nav-item active">
+                        <div class="nav-icon">🛒</div>
+                        <div>Cart</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="cart.js"></script>
+</body>
+</html>

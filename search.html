@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keranjang Belanja</title>
+</head>
+<body>
+    <h1><span id="item-count">0</span> Items In Cart</h1>
+
+    <div id="cart-items">
+        <!-- Daftar item keranjang akan ditampilkan di sini oleh JavaScript -->
+    </div>
+
+    <div>
+        <table width="100%">
+            <tr>
+                <td><strong>Total:</strong></td>
+                <td align="right"><strong id="total-price">Rp. 0</strong></td>
+            </tr>
+        </table>
+    </div>
+
+    <br>
+
+    <button onclick="checkout()">Checkout</button>
+    <br><br>
+    <a href="katalog.html">Back to Menu</a>
+
+    <br><br>
+    <hr>
+
+    <div>
+        <table width="100%">
+            <tr>
+                <td align="center">
+                    <a href="katalog.html">
+                        <div>🏠</div>
+                        <div>Home</div>
+                    </a>
+                </td>
+                <td align="center">
+                    <a href="search.html">
+                        <div>🔍</div>
+                        <div>Search</div>
+                    </a>
+                </td>
+                <td align="center">
+                    <a href="cart.html">
+                        <div>🛒</div>
+                        <div>Cart</div>
+                    </a>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <script src="cart.js"></script>
+</body>
+</html>
